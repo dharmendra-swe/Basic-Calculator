@@ -1,0 +1,178 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, sans-serif;
+    background-color: rgb(32 32 32);
+    color: white;
+}
+#dharm{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+.cal {
+    width: 100vw;
+    height: 90vh;
+}
+
+.left {
+    width: 100vw;
+    height: 30px;
+}
+
+.left>div {
+    float: left;
+}
+
+.title {
+    margin: 3px 0px 0 0px;
+}
+
+.cal-logo>img {
+    width: 25px;
+    margin: 3px 5px 0 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 30px;
+}
+
+nav>div {
+    width: 2rem;
+    float: left;
+}
+
+/* nav style complete */
+.hr {
+    width: 100vw;
+    height: 1px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+}
+
+.cal-body {
+    display: none;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cal-sec {
+    width: 55vw;
+}
+
+#in-out-sec {
+    border: none;
+    margin: 1rem 0 1rem 0;
+    width: 95%;
+    height: 5rem;
+    border-radius: 10px;
+    color: rgb(237 237 237);
+    font-size: 3rem;
+    font-weight: 500;
+    outline: none;
+    text-align: end;
+}
+
+#in-out-sec::placeholder {
+    color: rgb(237 237 237);
+}
+
+.cal-icon {
+    padding: 0 0 1rem 0;
+}
+
+
+
+.cal-sec>.cal-icon>.four>input:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.cal-sec>.cal-icon>.four>.bg-dark {
+    background-color: rgb(50, 50, 50);
+}
+
+.cal-sec>.cal-icon>.four>.bg-dark:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.cal-sec>.cal-icon>.four>.bg-equal {
+    background-color: rgb(65, 210, 193);
+    color: rgb(59, 59, 59);
+}
+
+.cal-sec>.cal-icon>.four>.bg-equal:hover {
+    background-color: rgb(52, 182, 167);
+}
+
+.cal-icon>.four {
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cal-icon>.six {
+    width: 100%;
+    margin: 0 0 0.2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cal-sec>.cal-icon>.four>input {
+    color: white;
+    width: 23%;
+    height: 4rem;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    /* outline: 2px solid rgb(71, 71, 71); */
+}
+
+.cal-sec>.cal-icon>.six>input {
+    color: rgb(90, 90, 90);
+    width: 18%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0rem 0.8rem;
+    font-size: 1.2rem;
+}
+
+.cal-sec>.cal-icon>.six>input:hover {
+    background-color: rgb(59, 59, 59);
+    color: rgb(205, 205, 205);
+
+}
+
+.his-sec {
+    width: 45vw;
+    height: 10px;
+    background-color: rgb(174, 174, 174);
+}
+
+/* history style */
+.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu>.col {
+    width: 8vw;
+    text-align: center;
+    padding: 0rem 0 0.5rem 0;
+    cursor: pointer;
+}
+
+.menu>.col:hover {
+    border-bottom: 4px solid rgb(65, 210, 193);
+}
+
+.selected {
+    width: 20px;
+    border-color: brown;
+}
